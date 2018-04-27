@@ -1,0 +1,17 @@
+{
+  "name": "ola-mundo",
+  "main": "index.html",
+  "version": "1.0",
+  "description": "Olá Mundo",
+  "window": {
+    "width": 600,
+    "height": 600,
+    "resizable": false,
+    "frame": true,
+    "title": "Olá Mundo",
+    "show": true,
+    "fullscreen": false,
+    "kiosk": false,
+    "icon": "icon.png"
+  }
+}
