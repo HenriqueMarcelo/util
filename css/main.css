@@ -184,7 +184,6 @@ h1::after {
 }
 
 main {
-  height: 300px;
   background: #F2EDE4;
 }
 main input {
@@ -213,3 +212,17 @@ main input:focus {
     opacity: 1;
   }
 }
+.console {
+  background-color: #666A73;
+  border: 5px solid #2F3540;
+  margin-top: .5em;
+  color: #F2EDE4;
+  padding: 1em;
+}
+
+.regra-tres {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -54,7 +54,6 @@ h1{
 }
 
 main {
-  height: 300px;
   background: $branco;
   input{
     font-size: 1.5em;
@@ -82,4 +81,17 @@ main {
   to {
     opacity: 1;
   }
+}
+
+.console{
+  background-color: $cinzaClaro;
+  border: 5px solid $cinzaEscuro;
+  margin-top: .5em;
+  color: $branco;
+  padding: 1em;
+}
+
+.regra-tres{
+  font-size: 20px;
+  margin-top: 5px;
 }
