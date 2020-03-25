@@ -1,17 +1,31 @@
 {
-  "name": "ola-mundo",
-  "main": "index.html",
-  "version": "1.0",
-  "description": "Olá Mundo",
-  "window": {
-    "width": 600,
-    "height": 600,
-    "resizable": false,
-    "frame": true,
-    "title": "Olá Mundo",
-    "show": true,
-    "fullscreen": false,
-    "kiosk": false,
-    "icon": "icon.png"
+  "name": "projeto-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueMarcelo/util.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueMarcelo/util/issues"
+  },
+  "homepage": "https://github.com/HenriqueMarcelo/util#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.4",
+    "node-sass": "^4.13.1",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.20.1",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.11"
   }
 }
