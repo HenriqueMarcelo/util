@@ -21,9 +21,6 @@ $marfimEscuro: #8C8681;
 html{
   background-color: $cinzaClaro;
   color: $cinzaEscuro;
-  div{
-    // height: 100%;
-  }
 }
 
 header{
@@ -94,4 +91,9 @@ main {
 .regra-tres{
   font-size: 20px;
   margin-top: 5px;
+}
+
+footer ~ div,
+footer ~ div *{
+  display: none!important;
 }
