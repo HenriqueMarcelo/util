@@ -20,7 +20,7 @@ A terceira funcionalidade do Util é a conversão de timestamps para datas. O us
 
 ## Como utilizar
 
-Para utilizar o Util, basta acessar https://henriquemarcelo.github.io/github-blog/ e utilizar a ferramenta desejada. É uma aplicação web simples e fácil de usar.
+Para utilizar o Util, basta acessar https://henriquemarcelo.github.io/util/ e utilizar a ferramenta desejada. É uma aplicação web simples e fácil de usar.
 
 ## Contribuindo
 

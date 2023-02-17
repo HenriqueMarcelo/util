@@ -20,7 +20,7 @@ The third feature of Util is the conversion of timestamps to dates. The user inf
 
 ## How to use
 
-To use Util, simply go to https://henriquemarcelo.github.io/github-blog/ and use the desired tool. It is a simple and easy-to-use web application.
+To use Util, simply go to https://henriquemarcelo.github.io/util/ and use the desired tool. It is a simple and easy-to-use web application.
 
 ## Contributing
 
