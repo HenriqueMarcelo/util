@@ -1,0 +1,99 @@
+// Esquema tirado de
+// https://color.adobe.com/pt/Das-Boot-color-theme-189112/?showPublished=true
+
+$cinzaEscuro: #2F3540;
+$cinzaClaro: #666A73;
+$branco: #F2EDE4;
+$marfimClaro: #D9D1C7;
+$marfimEscuro: #8C8681;
+
+@import "flex.scss";
+@import "grid.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: $cinzaClaro;
+  color: $cinzaEscuro;
+}
+
+header{
+  background: $cinzaEscuro;
+  height: 150px;
+  width: 100%;
+  color: $branco;
+}
+
+.center{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2em;
+}
+
+*::selection {
+  background: $marfimEscuro;
+  color: white;
+}
+
+h1{
+  font-size: 3.5em;
+  &::after{
+    content: '|';
+    animation: blink 1s linear infinite; /* IE 10+, Fx 29+ */
+    opacity: 0;
+  }
+}
+
+main {
+  background: $branco;
+  input{
+    font-size: 1.5em;
+    border: none;
+    border-bottom: 2px solid $cinzaEscuro;
+    color: $cinzaEscuro;
+    background-color: #00000000;
+    padding-bottom: .1em;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
+.row{
+  margin-bottom: 1em;
+}
+
+@keyframes blink {
+  from,
+  49% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
+}
+
+.console{
+  background-color: $cinzaClaro;
+  border: 5px solid $cinzaEscuro;
+  margin-top: .5em;
+  color: $branco;
+  padding: 1em;
+}
+
+.regra-tres{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+footer ~ div,
+footer ~ div *{
+  display: none!important;
+}

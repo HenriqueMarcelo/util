@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Util</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#2F3540">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161825386-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161825386-1');
+  </script>
+</head>
+<body>
+  <header>
+    <div class="center flex aic">
+      <h1>UTIL</h1>
+    </div>
+  </header>
+  <main class="center container">
+    <div class="row">
+      <h2 class="grid-3">Timestamp Unix:</h2>
+      <input class="grid-5 input-time" type="number" name="" value="">
+    </div>
+    <div class="row">
+      <h3 class="grid-1">PHP:</h3> <span class="grid-2 date-php"></span>
+      <h3 class="grid-1">JS:</h3> <span class="grid-2 date-js"></span>
+    </div>
+    <br>
+    <div class="row">
+      <h2 class="grid-3">Data:</h2>
+      <input class="grid-5 input-data" type="date" name="" value="">
+    </div>
+    <div class="row">
+      <h3 class="grid-1">PHP:</h3> <span class="grid-2 time-php"></span>
+      <h3 class="grid-1">JS:</h3> <span class="grid-2 time-js"></span>
+    </div>
+    <br>
+    <div class="row">
+      <h2 class="grid-3">Regra de Três:</h2>
+      <div class="grid-5">
+        <div class="row">
+          <input class="grid-2 input-a"type="number" placeholder="a">
+          <input class="grid-2 offset-1 input-b"type="number" placeholder="b">
+        </div>
+        <div class="row">
+          <input class="grid-2 input-x"type="number" placeholder="x">
+          <span class="grid-2 offset-1 regra-tres">Resposta</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
