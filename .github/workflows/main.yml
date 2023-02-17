@@ -1,0 +1,21 @@
+name: Send to gh-pages branch
+
+on: 
+  workflow_dispatch:
+  
+permissions:
+  contents: write
+  
+jobs:
+  build-and-deploy:
+    name: Checkout and Deploy 🦾
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository 🛎️
+        uses: actions/checkout@main
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: /
