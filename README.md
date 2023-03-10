@@ -10,7 +10,7 @@ It was developed using pure HTML, CSS and JavaScript, without the need for libra
 
 The rule of three calculator is a useful tool for those who need to do ratio calculations. The user enters the known values and the application returns the unknown value according to the proportion. It is a simple tool, but very useful in everyday situations.
 
-##Transform date into timestamp
+## Transform date into timestamp
 
 The second feature of Util is the conversion of dates to timestamps. A timestamp is a way to represent a date in seconds from a base date, facilitating calculations and comparisons between dates. The user enters the date and the application returns the corresponding timestamp.
 
